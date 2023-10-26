@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Kélyan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+        $('a[href^="#"]').click(function(){
+            var id = $(this).attr("href");
+            if (id === '#') {
+                return;
+            }
+            $('html, body').animate({scrollTop:$(id).offset().top}, 'slow');
+        });
+    });
+    </script>
+</head>
+<body>
+    <section id="container">
+        <div class="testdd">
+            <div class="homes vol">
+                <i class="fa-solid fa-house icon"></i>
+                <a class="home ab" href="#container">Accueil</a>
+            </div>
+            <div class="ids vol">
+                <i class="fa-solid fa-address-card icon"></i>
+                <a class="id ab" href="#container-propos">À propos</a>
+            </div>
+            <div class="comps vol">
+                <i class="fa-solid fa-palette icon"></i>
+                <a class="comp ab" href="#competence">Compétence</a>
+            </div>
+            <div class="realisas vol">
+                <i class="fa-solid fa-star icon"></i>
+                <a class="realisa ab" href="#realis">Réalisation</a>
+            </div>
+            <div class="contacts vol">
+                <i class="fa-solid fa-envelope icon"></i>
+                <a class="contact ab" href="">Contact</a>
+            </div>
+        </div>
+        <div class="pre">
+            <h1 class="titre">Développeur Web Front-end</h1>
+            <hr>
+            <h3 class="sous-titre">Je réalise des sites web sur mesure, et j'adore ce que je fais !</h3>
+        </div>
+    </section>
+    
+    <section id="container-propos">
+        <svg class="test" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,192C384,192,480,160,576,144C672,128,768,128,864,122.7C960,117,1056,107,1152,117.3C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        <div class="propos">
+            <h4 class="acroche">Salut, je suis Kélyan !</h4>
+            <p class="text-pro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ut sed repellendus explicabo eum adipisci modi sapiente? Nostrum, nesciunt reiciendis? Magni, officia odit? Blanditiis expedita, esse excepturi fuga distinctio cupiditate. Molestias voluptates minima dolorum quam doloribus, molestiae delectus quasi impedit possimus ipsum amet repudiandae fugit consequuntur, non laboriosam aliquid perferendis?</p>
+        </div>
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,144C384,181,480,235,576,224C672,213,768,139,864,128C960,117,1056,171,1152,197.3C1248,224,1344,224,1392,224L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section>
+    <section id="competence">
+        <div class="rect-compt">
+            <div class="rect-1 rect">
+                <i class="fa-brands fa-figma icon-comp"></i>
+                <div class="maquette progress">
+                    <h5 style="font-size: 15px; color: #1A1A1D; z-index: 1; text-transform: uppercase;">Maquette</h5>
+                    <h5 style="font-size: 15px; color: #FFFFFF;">40%</h5>
+                </div>
+                <p class="exemple">Avant de me lancer dans la création du site web, je conçois des maquettes sur Figma pour mieux visualiser le projet et optimiser mon efficacité. </p>
+            </div> 
+            <div class="rect-2 rect">
+                <i class="fa-solid fa-code icon-comp"></i>
+                <div class="html progress">
+                    <h5 style="font-size: 15px; color: #1A1A1D; z-index: 1; text-transform: uppercase;">HTML</h5>
+                    <h5 style="font-size: 15px; color: #FFFFFF;">80%</h5>
+                </div>
+                <div class="css progress" style="margin-top: 5px;">
+                    <h5 style="font-size: 15px; color: #1A1A1D; z-index: 1; text-transform: uppercase;">CSS</h5>
+                    <h5 style="font-size: 15px; color: #FFFFFF;">75%</h5>
+                </div>
+                <p class="exemple">Pour la création de sites web et d’applications web, j’utilise principalement HTML5 et CSS3. Ma maîtrise de ces deux langages me permet d’aborder ces projets en toute confiance et de les réaliser de manière fluide.</p>
+            </div> 
+            <div class="rect-3 rect">
+                <i class="fa-solid fa-mobile icon-comp"></i>
+                <div class="js progress">
+                    <h5 style="font-size: 15px; color: #1A1A1D; z-index: 1; text-transform: uppercase;">Javascript</h5>
+                    <h5 style="font-size: 15px; color: #FFFFFF;">52%</h5>
+                </div>
+                <div class="c progress" style="margin-top: 5px;">
+                    <h5 style="font-size: 15px; color: #1A1A1D; z-index: 1; text-transform: uppercase;">C</h5>
+                    <h5 style="font-size: 15px; color: #FFFFFF;">15%</h5>
+                </div>
+                <p class="exemple">La combinaison de JavaScript et de C me donne les outils nécessaires pour développer des applications mobiles variées, telles que des applications météo, des jeux vidéo, ou même des jeux de type 'Action ou Vérité'. </p>
+            </div> 
+        </div>
+    </section>
+
+    <section id="realis">
+        <h4 class="rea">Mes réalisations</h4>
+        <div class="flex-realisation">
+            <div class="site-1">
+                <img src="../img/site-1.png" alt="" class="img">
+                <h6>Site vitrine sur le tour de france fait par Thierry.(Toujours en développement)</h6>
+            </div>
+            <div class="site-2">
+                <img src="../img/site-2.png" alt="" class="img">
+                <h6>Site E-commerce réalisé pour un serveur GTA RP. (hors ligne)</h6>
+            </div>
+            <div class="site-3">
+                <img src="../img/site-3.png" alt="" class="img">
+                <h6>Site de contrôle d'hergement pour un hebergeur de site, fivem et bot discord. (en ligne)</h6>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#container" class="fleche"><i class="fa-solid fa-arrow-up arrow"></i>Remonter</a>
+        <section class="low-footer">
+            <div class="icon-social">
+                <i class="fa-brands fa-instagram" style="cursor: pointer;"></i>
+                <i class="fa-brands fa-discord" style="cursor: pointer;"></i>
+                <i class="fa-brands fa-github" style="cursor: pointer;"></i>
+            </div>
+            <div class="droit">© Tous droits réservés : Kélyan.</div>
+        </section>
+    </footer>
+</body>
+<script src="../index.js"></script>
+</html>
