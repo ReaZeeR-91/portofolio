@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'cabinregular';
-    src: url('../font/cabin-variablefont_wdthwght-webfont.woff2') format('woff2'),
-         url('../font/cabin-variablefont_wdthwght-webfont.woff') format('woff');
+    src: url('cabin-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('cabin-variablefont_wdthwght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
